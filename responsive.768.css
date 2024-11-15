@@ -1,0 +1,131 @@
+@media only screen and (max-width:768px) {
+
+
+
+
+    .one {
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        padding: 0 25px;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .one ul {
+        /* display: none; */
+
+    }
+    .one li{
+        display: none;
+    }
+
+
+
+    .logo img {
+        width: 250px;
+    }
+
+
+
+
+    .two {
+        flex-direction: column;
+        /* border: 2px solid red; */
+    }
+
+    .left {
+        width: 100%;
+        min-height: 450px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid rgb(70, 47, 197); */
+        flex-direction: column;
+    }
+    .left h1 {
+        width: 90%;
+    }
+    .right {
+        width: 100%;
+        min-height: 350px;
+        /* border: 2px solid black; */
+    }
+
+    .second {
+        flex-direction: column;
+        /* border: 3px solid hotpink; */
+        width: 100%;
+
+    }
+
+    .left1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right1 {
+        width: 100%;
+        min-height: 600px;
+
+
+    }
+
+    .right-div-1 {
+        /* border: 2px solid rgb(53, 46, 46); */
+        right: 10px;
+    }
+
+    .right-div-2 {
+
+        border: 2px solid firebrick;
+    }
+
+    .right-div-3 {
+        /* border: 2px solid rgb(44, 218, 0); */
+        left: 10px;
+    }
+
+    .tree {
+        width: 100%;
+        /* min-height: 70vh; */
+    }
+
+    .cards1 {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card1 {
+        width: 350px;
+        min-height: 70px;
+        /* border: 3px solid forestgreen; */
+    }
+
+
+    .fiva {
+        flex-direction: column !important;
+        width: 100%;
+        min-height: 70vh;
+    }
+
+    .right2 {
+        /* flex-direction: column-reverse; */
+    }
+
+    .left2 {
+        flex-direction: column-reverse;
+    }
+
+    .nav {
+        flex-direction: column-reverse;
+    }
+
+    .map {
+        flex-direction: column-reverse;
+    }
+}
